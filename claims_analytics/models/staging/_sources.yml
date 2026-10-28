@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: cms
+    description: CMS DE-SynPUF synthetic Medicare data, loaded by scripts/load_raw.py
+    schema: raw
+    tables:
+      - name: beneficiary_summary_2008
+        description: One row per beneficiary for 2008, all columns loaded as text
