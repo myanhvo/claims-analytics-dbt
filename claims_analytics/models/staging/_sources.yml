@@ -7,3 +7,5 @@ sources:
     tables:
       - name: beneficiary_summary_2008
         description: One row per beneficiary for 2008, all columns loaded as text
+      - name: inpatient_summary
+        description: inpatient summary data from 08-10, all columns loaded as text
